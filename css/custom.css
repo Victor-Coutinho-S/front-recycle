@@ -1,0 +1,29 @@
+body, html {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#header {
+    width: 100%;
+    background-color: transparent;
+    transition: background ease-out 0.2s;
+}
+#header .nav-link {
+    text-transform: uppercase;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-weight: 500;
+    color: black;
+    border-bottom: solid 3px transparent;
+}
+
+#header .nav-link:hover{
+    border-bottom: solid 3px var(--secondary);
+    color: var(--primary)
+}
+
+#test .user {
+    padding-top: 12px;
+}
